@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>CSharpLearn.DependencyInjection.ConstructorInjection</StartupObject>
+    <StartupObject>CSharpLearn.StructsApp.AboutStructs</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
