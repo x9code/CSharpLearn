@@ -10,9 +10,11 @@ namespace CSharpLearn.Problems
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("-Check if the number is prime-");
+            Console.WriteLine("-Check if the number is prime or not-");
             Console.WriteLine("Enter the number");
+
             int num = int.Parse(Console.ReadLine());
+
             CheckPrime(num);
         }
         public static void CheckPrime(int n)
@@ -21,7 +23,7 @@ namespace CSharpLearn.Problems
             int count = 0;
             if(n == 0)
             {
-                Console.WriteLine("u entered 0");
+                Console.WriteLine("you entered 0 and it is neutral😂");
             }
             for (int i = 1; i<= n; i++)
             {
