@@ -13,7 +13,7 @@ namespace CSharpLearn.Problems
             Console.WriteLine("**Remove Duplicates**");
             char[] chars = { 'a', 'b', 'c', 'b' };
             Console.WriteLine("chars = { 'a', 'b', 'c', 'b' }");
-            Console.Write($"After removal:");
+            Console.Write($"After removal: ");
             RemoveDups(chars);
         }
         public static void RemoveDups(char[] arr)
@@ -27,6 +27,7 @@ namespace CSharpLearn.Problems
             {
                 Console.Write(c + " ");
             }
+            Console.WriteLine(set.ToArray());
         }
     }
 }

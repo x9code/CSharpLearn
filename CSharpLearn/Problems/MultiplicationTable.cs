@@ -18,9 +18,8 @@ namespace CSharpLearn.Problems
         {
             for (int i = 1; i <= 10; i++)
             {
-                Console.WriteLine($"{num} {"X"} {i} = {num*i}");
+                Console.WriteLine($"{num} {"X"} {i} = {num * i}");
             }
-        } 
+        }
     }
-
 }
