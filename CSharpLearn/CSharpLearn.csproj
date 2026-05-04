@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>CSharpLearn.Problems.Anagram</StartupObject>
+    <StartupObject>CSharpLearn.Problems.CommonPrefix</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
